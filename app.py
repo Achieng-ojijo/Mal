@@ -112,3 +112,4 @@ if uploaded_file is not None:
                     st.error(f"Error fitting SARIMA model: {e}")
 else:
     st.info("Please upload your malaria dataset (CSV format) to begin.")
+
